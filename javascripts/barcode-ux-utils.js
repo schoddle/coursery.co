@@ -113,7 +113,7 @@ var BarcodeUxUtils = BarcodeUxUtils || {};
   };
 
   BarcodeUxUtils.createAmazonUrl = (input) => {
-    $('#amazon-url').attr('href', `https://www.amazon.com/s?k=${input}&tag=fromdevtools-20`);
+    $('#amazon-url').attr('href', `https://www.amazon.com/s?k=${input}&tag=courserytools-20`);
   };
   BarcodeUxUtils.createEbayUrl = (input) => {
     $('#ebay-url').attr('href', `https://www.ebay.com/sch/i.html?_nkw=${input}&_sacat=0`);

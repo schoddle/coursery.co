@@ -11,7 +11,7 @@ History.collectAndShow = (Page) => {
 };
 History.fetchHistory = (context) => {
     if (!HistoryUtils) {
-        console.log('Include fromdev-utils.js for HistoryUtils');
+        console.log('Include coursery-utils.js for HistoryUtils');
         return;
     }
 
