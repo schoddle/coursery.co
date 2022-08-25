@@ -5,7 +5,9 @@ layout: post
 <html>
 
 <head>
+   <link rel="canonical" href="https://education.coursery.com">
    {% include common-meta %}
+   {% feed_meta %}
     <title>{{ page.title }}</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -20,6 +22,7 @@ layout: post
     <!-- Site wrapper -->
     <div class="wrapper">
 
+{% include theme-header %}
 {% include theme-sidebar %}
 
         <!-- Content Wrapper. Contains page content -->
