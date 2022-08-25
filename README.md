@@ -1,5 +1,5 @@
 # Developer Tools
-Free Developer Tools Developed by Fromdev https://tools.fromdev.com/
+Free DevTools Developed by Coursery https://education.coursery.co/
 
 This is open source collection of developer tools that can be run on browser. The vision is to have a online tools website where all small tools can be present for developers or freelancers. Most of these tools are developed in JavaScript since we want them to run directly inside the browser. 
 
@@ -22,12 +22,11 @@ I have two key things that keep me motivated and help these tool running.
 # How To Test Your Changes
 1. We use [Jasmine](https://jasmine.github.io/) for doing unit testing on any Javascript functions and utilities.
 2. Add test cases in project for every new code in JavaScript.
-3. Run [SpecRunner.html](https://tools.fromdev.com/test/SpecRunner.html) to see your tests passing.
+3. Run [SpecRunner.html](https://education.coursery.co/test/SpecRunner.html) to see your tests passing.
 4. Add a new Spec file in <code>test/spec</code> folder for any new JavaScript file you contribute.
 
 
 # How To Contribute As a User
 
-1. Send us feedback using email on sachin [at] fromdev [dot] com 
-2. Found a bug on a tool? Report an issue here - https://github.com/fromdev/tools/issues [requires github account] or email us on above mentioned email address.
-3. Suggest a new tool. You can email us any new tool idea that may fit here.
+1. Send us feedback using email on feedback [at] coursery [dot] co 
+2. Suggest a new tool. You can email us any new tool idea that may fit here.

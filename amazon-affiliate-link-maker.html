@@ -21,7 +21,7 @@ layout: post
   <!-- Annoying IE fixes -->
   {% include ie-fixes %}
   <!-- Data Table Addon Styles -->
-  <link rel="stylesheet" href="https://tools.fromdev.com/plugins/datatables.net/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="https://education.coursery.co/plugins/datatables.net/dataTables.bootstrap.min.css">
 </head>
 
 <body class="hold-transition skin-green sidebar-mini">
@@ -303,10 +303,10 @@ layout: post
   {% include theme-bottom-js %}
 
 </body>
-<script src="/javascripts/fromdev-ux-addon.js"></script>
+<script src="/javascripts/coursery-ux-addon.js"></script>
 <script src="/plugins/selectOnFocus/jquery.selectOnFocus.min.js"></script>
 <script src="/plugins/copyText/jquery.copyText.min.js"></script>
-<script src="/javascripts/fromdev-utils.js?v=1"></script>
+<script src="/javascripts/coursery-utils.js?v=1"></script>
 <script src="/plugins/datatables.net/jquery.dataTables.min.js"></script>
 <script src="/plugins/datatables.net/dataTables.bootstrap.min.js"></script>
 <script src="/javascripts/custom-analytics.js"></script>
@@ -341,12 +341,12 @@ layout: post
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
         return `<tr>
                       <td>
-                        <a target='_blank' rel="nofollow" title="${context.name}" name="${context.name}" href="http://www.amazon.com/dp/${context.asin}?tag=fromdevtools-20">
+                        <a target='_blank' rel="nofollow" title="${context.name}" name="${context.name}" href="http://www.amazon.com/dp/${context.asin}?tag=courserytools-20">
                           <img title="${context.name}" class="img-responsive" alt="${context.name}" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=${context.asin}&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1"/>
                           </a>
                       </td>
                       <td>
-                        <a target='_blank' rel="nofollow" title="${context.name}" name="${context.name}" href="http://www.amazon.com/dp/${context.asin}?tag=fromdevtools-20">
+                        <a target='_blank' rel="nofollow" title="${context.name}" name="${context.name}" href="http://www.amazon.com/dp/${context.asin}?tag=courserytools-20">
                         ${context.name}
                         </a>
                       </td>
@@ -357,7 +357,7 @@ layout: post
 
   const embedCodeSetup = () => {
     $('#embedCode').val(
-      `<iframe style=\"position: fixed;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 999999;height: 100%;\" scrolling=\"auto\" src=\"https:\/\/tools.fromdev.com\/amazon-affiliate-link-maker.html?mode=embed&affiliateTag=${getAffiliateTag()}\"><\/iframe>`
+      `<iframe style=\"position: fixed;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 999999;height: 100%;\" scrolling=\"auto\" src=\"https:\/\/education.coursery.co\/amazon-affiliate-link-maker.html?mode=embed&affiliateTag=${getAffiliateTag()}\"><\/iframe>`
     );
   };
   var getAffiliateTag = function () {
@@ -365,7 +365,7 @@ layout: post
     if (!affiliateTag) {
       affiliateTag = Utils.storage.getItem("affiliateTag");
       if (!affiliateTag) {
-        affiliateTag = 'fromdevtools-20';
+        affiliateTag = 'courserytools-20';
       }
     }
     Utils.storage.setItem("affiliateTag", affiliateTag);
